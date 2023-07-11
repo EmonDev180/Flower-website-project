@@ -112,13 +112,48 @@ display: inline-flex;
     border-radius: 400px 400px 0px 0px ;
     border: none;
 }
+.section-para{
+    text-align: center;
+    color:rgba(39, 39, 39, 0.60); 
+}
+/* card photo container */
+.card-photo-container{
+
+    height: 400px;
+    width: 100%;
+    background-color:#fff;
+    margin-bottom: 60px;
+
+}
+.cards{
+    display: flex;
+    gap:5px
+}
+.card-img-title{
+    height: 250px;
+    width:200px;
+    margin: 50px;
+
+
+}
 /* footer section */
 .footer-container{
     background-color: black;
     height: 100px;
     width: 100%;
 
-
+}
+.footer-head{
+    color: #E55473;
+    text-align: center;
+}
+.head-span{
+    color: #fff;
+}
+.footer-para{
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
 }
 
 
